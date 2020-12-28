@@ -1,0 +1,56 @@
+<html>
+   <head>
+      <title>emoji-predictor</title>
+      <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   </head>
+
+   <body>
+
+      <div class="jumbotron" >
+         <div class="container text-center">
+            <h2>Emoji predictor - Deep Learning II</h2>
+            <br>
+            <h4>Enter some text to perform emoji sentiment analysis!</h4>
+         </div>
+      </div>
+      
+      <br>
+      <br>
+
+      <div class="container-fluid bg-3 text-center"> 
+         <center>   
+            <form class="form-inline justify-content-center" action="/" method="post">
+               <input type="text" class="form-control w-50" name="name" placeholder="Exemple: Jul est vraiment un super artiste !" required>
+               <button class="btn btn-outline-secondary" type="submit" id="submit-btn">Submit</button>
+            </form>
+         </center>
+      </div>
+
+      <br>
+      <br>
+
+      <center>
+         {% include 'result.html' %}
+      </center>
+
+   </body>
+   
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   
+   <footer>
+      <p style="opacity: 0.3" align="center"> 
+         &copy; 2020 - Deep Learning II - Group 9
+      </p>
+   </footer> 
+</html>

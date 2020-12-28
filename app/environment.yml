@@ -1,0 +1,30 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy=1.19.4
+  - json-c=0.13.1
+  - flask=1.1.2
+  - pip=20.0.2
+  - pandas=1.0.1
+  - notebook
+  - ipywidgets=7.5.1
+  - pip:
+    - emojis==0.6.0
+    - Unidecode==1.1.1
+    - omegaconf==2.0.5
+    - hydra-core==1.0.4
+    - torch==1.7.0
+    - autopep8==1.5.4
+    - regex==2020.11.13
+    - requests==2.25.0
+    - tqdm==4.54.1
+    - Cython==0.29.21
+    - ninja==1.10.0.post2
+    - sentencepiece==0.1.94
+    - transformers==4.0.1
+    - Keras==2.4.3
+    - tensorflow==2.4.0
+    - ipywidgets==7.5.1
+    - matplotlib==3.3.3
